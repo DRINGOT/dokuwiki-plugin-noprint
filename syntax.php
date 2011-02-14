@@ -15,25 +15,6 @@ require_once(DOKU_PLUGIN.'syntax.php');
 class syntax_plugin_noprint extends DokuWiki_Syntax_Plugin {
 
    /**
-    * Get an associative array with plugin info.
-    *
-    * @param none
-    * @return Array Information about this plugin class.
-    * @public
-    * @static
-    */
-    function getInfo(){
-        return array(
-            'author' => 'Dennis Ploeger',
-            'email'  => 'develop@dieploegers.de',
-            'date'   => '2009-11-20',
-            'name'   => 'noprint Plugin',
-            'desc'   => 'Hides parts of a page on printout.',
-            'url'    => 'http://www.dokuwiki.org/plugin:noprint',
-        );
-    }
- 
-   /**
     * Get the type of syntax this plugin defines.
     *
     * @param none
