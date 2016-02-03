@@ -85,7 +85,7 @@ class syntax_plugin_noprint extends DokuWiki_Syntax_Plugin {
     * @see render()
     * @static
     */
-    function handle($match, $state, $pos, &$handler){
+    function handle($match, $state, $pos, Doku_Handler $handler){
 
         return array($match, $state);
 
@@ -103,7 +103,7 @@ class syntax_plugin_noprint extends DokuWiki_Syntax_Plugin {
     * @public
     * @see handle()
     */
-    function render($mode, &$renderer, $data) {
+    function render($mode, Doku_Renderer $renderer, $data) {
 
         if ($mode == 'xhtml'){
 
