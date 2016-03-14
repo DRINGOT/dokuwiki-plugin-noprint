@@ -117,7 +117,7 @@ class syntax_plugin_noprint extends DokuWiki_Syntax_Plugin {
 
             switch ($open) {
                 case true:
-                    $renderer->doc .= "</div><span id=\"noprint\"><div>";
+                    $renderer->doc .= "<span id=\"noprint\">";
                     break;
                 case false:
                     $renderer->doc .= "</span>";
