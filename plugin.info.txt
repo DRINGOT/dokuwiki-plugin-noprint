@@ -1,7 +1,7 @@
 base	noprint
 author	Dennis Ploeger
 email	develop@dieploegers.de
-date	2011-02-14
+date	2016-03-14
 name	noprint Plugin
 desc	Hides parts of a page on printout.
 url		http://www.dokuwiki.org/plugin:noprint
